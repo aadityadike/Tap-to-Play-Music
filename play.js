@@ -11,7 +11,6 @@ window.addEventListener("load", () => {
         "#d472e7"
     ]
 
-    console.log(sound)
     // lets get going with the sound here.
     pads.forEach((pad, index) => {
         pad.addEventListener("click", () => {
